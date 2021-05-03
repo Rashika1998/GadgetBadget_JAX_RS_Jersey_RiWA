@@ -7,19 +7,19 @@ private Connection connect()
  Connection con = null; 
  try
  { 
- Class.forName("com.mysql.jdbc.Driver"); 
- con = 
- DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test", "root", ""); 
+	 Class.forName("com.mysql.jdbc.Driver"); 
+	 con = 
+	 DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/lab06", "root", "issa123"); 
  } 
  catch (Exception e) 
  { 
- e.printStackTrace(); 
+	 e.printStackTrace(); 
  } 
- return con; 
+ 	return con; 
  } 
 public String readItems() 
  { 
- String output = ""; 
+	String output = ""; 
  try
  { 
  Connection con = connect(); 
