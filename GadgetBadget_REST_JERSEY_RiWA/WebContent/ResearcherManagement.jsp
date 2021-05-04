@@ -15,6 +15,18 @@
 <body>
 
 
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="ResearcherManagement.jsp">GadgetBadget</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class=""><a href="ResearcherManagement.jsp">Researcher Management</a></li>
+	      
+	    </ul>
+	  </div>
+	</nav>
+
 
 	<div class="container"><div class="row"><div class="col-6"> 
 		<h1 id="h1_header">Researcher Management</h1>
