@@ -61,7 +61,7 @@ var type = ($("#hidItemIDSave").val() == "") ? "POST" : "PUT";
 		 $("#alertError").show(); 
 	 }
 	 	 $("#hidItemIDSave").val(""); 
- 		 $("#formItem")[0].reset(); 
+ 		 $("#formResearcher")[0].reset(); 
  }
  
  
@@ -73,9 +73,9 @@ var type = ($("#hidItemIDSave").val() == "") ? "POST" : "PUT";
 	 $("#resName").val($(this).closest("tr").find('td:eq(1)').text()); 
 	 $("#resEmail").val($(this).closest("tr").find('td:eq(2)').text()); 
 	 $("#resAge").val($(this).closest("tr").find('td:eq(3)').text()); 
-	 $("#resAddress").val($(this).closest("tr").find('td:eq(3)').text()); 
-	 $("#resRole").val($(this).closest("tr").find('td:eq(3)').text()); 
-	 $("#joinDate").val($(this).closest("tr").find('td:eq(3)').text()); 
+	 $("#resAddress").val($(this).closest("tr").find('td:eq(4)').text()); 
+	 $("#resRole").val($(this).closest("tr").find('td:eq(5)').text()); 
+	 $("#joinDate").val($(this).closest("tr").find('td:eq(6)').text()); 
  });
  
  
@@ -154,7 +154,19 @@ function validateItemForm()
 	if ($("#resAge").val().trim() == "") 
 	 { 
 	 	return "Insert the age."; 
+	 }
+	 if ($("#resAddress").val().trim() == "") 
+	 { 
+	 	return "Insert the address."; 
 	 } 
+	 if ($("#resRole").val().trim() == "") 
+	 { 
+	 	return "Insert the Role."; 
+	 }
+	 if ($("#joinDate").val().trim() == "") 
+	 { 
+	 	return "Insert the joined date."; 
+	 }
 	return true; 
 }
  
