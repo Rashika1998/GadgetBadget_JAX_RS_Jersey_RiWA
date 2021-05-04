@@ -6,7 +6,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>GadgetBadget REST Jersey RiWA</title>
-<link href="myStyle.css" rel="stylesheet" />
+<link rel="stylesheet" href="Views/main_form_styles.css">
 <link rel="stylesheet" href="Views/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="Components/jquery-3.2.1.min.js"></script>
@@ -17,7 +17,7 @@
 
 
 	<div class="container"><div class="row"><div class="col-6"> 
-		<h1>Researcher Management</h1>
+		<h1 id="h1_header">Researcher Management</h1>
 		<form id="formResearcher" name="formResearcher">
 			 Researcher code: 
 			 <input id="resCode" name="resCode" type="text" 
@@ -55,10 +55,11 @@
 			 name="hidItemIDSave" value="">
 		</form>
 		
-		
+		<br>
 		<div id="alertSuccess" class="alert alert-success"></div>
 			<div id="alertError" class="alert alert-danger"></div>
 			<br>
+			<h2 id="h2_header">All The Researchers' Records</h2><br>
 				<div id="divItemsGrid">
 				 <%
 				 	 ResearcherManagement researcherManagementObj = new ResearcherManagement(); 
