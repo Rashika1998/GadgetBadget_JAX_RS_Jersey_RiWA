@@ -21,8 +21,7 @@
 	      <a class="navbar-brand" href="ResearcherManagement.jsp">GadgetBadget</a>
 	    </div>
 	    <ul class="nav navbar-nav">
-	      <li class=""><a href="ResearcherManagement.jsp">Researcher Management</a></li>
-	      
+	      <li class=""><a href="ResearcherManagement.jsp">Researcher Management</a></li>   
 	    </ul>
 	  </div>
 	</nav>
