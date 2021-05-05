@@ -27,6 +27,7 @@
 	</nav>
 
 
+
 	<div class="container"><div class="row"><div class="col-6"> 
 		<h1 id="h1_header">Researcher Management</h1>
 		<form id="formResearcher" name="formResearcher">
