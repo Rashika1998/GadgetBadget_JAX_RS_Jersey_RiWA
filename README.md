@@ -3,7 +3,7 @@
 This project is for developing GUI for PAF group project solution.<br>
 Student name: Rathnayaka R.M.R.M.<br>
 IT No: IT18213140<br>
-DB file: 
+DB file: https://github.com/Rashika1998/GadgetBadget_JAX_RS_Jersey_RiWA/tree/master/GadgetBadget_REST_JERSEY_RiWA/DB
 
 You can see some screen shots bellow.
 <br>
