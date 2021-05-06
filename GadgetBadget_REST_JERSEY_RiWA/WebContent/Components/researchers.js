@@ -2,6 +2,15 @@
  * 
  */
  
+//hide alert
+$(document).ready(function() {
+
+	$("#alertSuccess").hide();
+	$("#alertError").hide();
+	$("#hidItemIDSave").val("");
+	$("#formResearcher")[0].reset();
+});
+ 
  $(document).on("click", "#btnSave", function(event)
 { 
 	// Clear alerts---------------------
@@ -138,34 +147,34 @@ function validateItemForm()
 	// CODE
 	if ($("#resCode").val().trim() == "") 
 	 { 
-	 	return "Insert researcher Code."; 
+	 	return "Insert the Researcher's Code."; 
 	 } 
 	// NAME
 	if ($("#resName").val().trim() == "") 
 	 { 
-	 	return "Insert researcher Name."; 
+	 	return "Insert the Researcher's Name."; 
 	 } 
 	// Email
 	if ($("#resEmail").val().trim() == "") 
 	 { 
-	 	return "Insert the E-mail address."; 
+	 	return "Insert the Researcher's E-mail Address."; 
 	 } 
 	// Age------------------------
 	if ($("#resAge").val().trim() == "") 
 	 { 
-	 	return "Insert the age."; 
+	 	return "Insert the Researcher's Age."; 
 	 }
 	 if ($("#resAddress").val().trim() == "") 
 	 { 
-	 	return "Insert the address."; 
+	 	return "Insert the Researcher's Address."; 
 	 } 
 	 if ($("#resRole").val().trim() == "") 
 	 { 
-	 	return "Insert the Role."; 
+	 	return "Insert the Researcher's Role."; 
 	 }
 	 if ($("#joinDate").val().trim() == "") 
 	 { 
-	 	return "Insert the joined date."; 
+	 	return "Insert the Researcher's joined date."; 
 	 }
 	return true; 
 }
